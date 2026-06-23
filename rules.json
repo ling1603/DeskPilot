@@ -1,0 +1,27 @@
+{
+    "_说明": "文件分类规则 — 支持扩展名(extensions)和文件名关键词(keywords)两种匹配方式，修改后重启生效",
+    "图片": {
+        "extensions": ["jpg", "png", "jpeg"],
+        "keywords": ["screenshot", "截图", "photo", "照片"]
+    },
+    "文档": {
+        "extensions": ["pdf", "docx", "txt"],
+        "keywords": ["report", "报告", "doc", "文档"]
+    },
+    "表格": {
+        "extensions": ["xlsx", "csv"],
+        "keywords": ["data", "数据", "统计"]
+    },
+    "视频": {
+        "extensions": ["mp4", "mov"],
+        "keywords": ["video", "视频", "record"]
+    },
+    "压缩包": {
+        "extensions": ["zip", "rar", "7z"],
+        "keywords": ["backup", "备份"]
+    },
+    "代码": {
+        "extensions": ["py", "js", "html", "css"],
+        "keywords": ["script", "脚本", "code"]
+    }
+}
